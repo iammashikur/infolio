@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <title>Portfolio</title>
+
+    <style>
+        ::-webkit-scrollbar {
+
+            background: rgb(26, 26, 26);
+            width: 10px;
+
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #ffb400;
+            /* border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px; */
+
+
+            border-radius: 5px;
+        }
+
+        body {
+            padding-bottom: 20vh;
+        }
+
+        .btn-rounded{
+            border-radius: 25px;
+        }
+
+
+        .avatar {
+            border: 0.3rem solid rgba(#fff, 0.3);
+            margin-top: -6rem;
+            margin-bottom: 1rem;
+            max-width: 9rem;
+            border: 1px solid #ffb400;
+        }
+
+        .social ul {
+
+            padding: 5px;
+
+
+        }
+
+        .social ul li {
+            display: inline;
+            list-style: none;
+            padding: 5px;
+
+
+
+        }
+
+        .social ul li a {
+
+            transition: 0.3s;
+            text-decoration: none;
+            padding: 8px;
+            background: rgb(255, 255, 255);
+            border-radius: 50px;
+            color: black;
+
+        }
+
+        .social ul li a:hover {
+
+            transition: 0.3s;
+            background: #ffb400;
+            border-top-right-radius: 0px;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .social ul li a i {
+
+            width: 16px;
+            height: 16px;
+
+
+        }
+
+        .about-title {
+            position: relative;
+        }
+
+        .about-title:after {
+            position: absolute;
+            content: '';
+            height: 4px;
+
+
+
+            /* center - (optional) use with adjusting width   */
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 30px;
+            width: 50px;
+            background: #ffb400;
+            border-radius: 5px;
+
+
+        }
+
+
+        .text-two {
+            color: #ffb400;
+        }
+
+        .card {
+            border: 1px solid #ffb400;
+        }
+
+        .cover-buttons{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            
+        }
+
+        .cover-buttons a{
+           
+            font-weight: 700;
+        }
+
+        ::placeholder {
+            color: rgb(238, 238, 238) !important;
+            opacity: 1; /* Firefox */
+        }
+
+        textarea, textarea.form-control, input.form-control, input[type=text], input[type=password], input[type=email], input[type=number], [type=text].form-control, [type=password].form-control, [type=email].form-control, [type=tel].form-control, [contenteditable].form-control{
+            color: #fff;
+        }
+        
+
+
+    </style>
+</head>
+
+<body class="bg-dark">
+
+
+
+    <div class="container" style="margin-top: 15vh">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-6">
+                <div class="card bg-dark text-light mt-4" data-aos="fade-up">
+                    <img class="card-img-top" src="cover.jpg" alt="mirash">
+                    <div class="card-body text-center">
+                        <img class="avatar rounded-circle"
+                            src="https://scontent.fdac34-1.fna.fbcdn.net/v/t1.0-9/60407988_2048498835451134_7670753862000574464_o.jpg?_nc_cat=100&_nc_sid=174925&_nc_eui2=AeHiX5-hdhVvowkROfYlLQ1_2UI4T0m4NmvZQjhPSbg2ay8jggZjRQ_s-yGsYAx3YOnjxBFLvQvG1Sa9S0nq-7h0&_nc_ohc=WAEM0PRWUtgAX8_qFrD&_nc_ht=scontent.fdac34-1.fna&oh=298bafab6f52b898e66840802e3b3a3e&oe=5F8DEEBF"
+                            alt="mirash">
+
+                            <div class="cover-buttons">
+                            
+                        <a class="btn btn-secondary btn-sm btn-rounded" href=""><i class="fas fa-download"></i> RESUME</a>
+                        <a class="btn btn-secondary btn-sm btn-rounded" href=""><i class="fas fa-phone-alt"></i> CONTACT</a>
+
+                            </div>
+
+                        <p class="mb-2">HI THERE !</p>
+                        <h4 class="card-title">I'M <b class="text-two">MIRASH RAHMAN</b></h4>
+                        <h6 class="card-subtitle mb-2 text-muted">WEB DEVELOPER</h6>
+
+
+
+
+                        <div class="social mt-4">
+                            <ul>
+
+                                <li>
+                                    <a href="https://github.com/700mirash"> <i class="fab fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/700mirash"> <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/700mirash"> <i class="fab fa-instagram"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 15vh">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-6">
+                <div class="card bg-dark text-light mt-4" data-aos="fade-up">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title about-title text-center">ABOUT ME</h4>
+
+                        <p class="card-text text-justify mt-4 mb-4">
+                            I am a Backend Web Developer @ Hurtle Bee LTD. Basically I Develop Wonderful Web Applications with Php
+                            & Node.js, I am pretty good at HTML, Bootstrap, Javascript, JQuery &
+                            React.JS, My Favourite Framework is Laravel (PHP) & Express (Node.js). I've completed too
+                            many open source projects, checkout my Github Profile.
+                        </p>
+
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 15vh">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-6">
+                <div class="card bg-dark text-light mt-4" data-aos="fade-up">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title about-title text-center">MY SKILLS</h4>
+
+
+                        <p class="mt-4">HTML, CSS, JAVASCRIPT, PHP (95%)</p>
+
+                        <div class="progress mt-2 mb-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                role="progressbar" style="width: 95%" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+
+
+
+                        <p class="mt-4">REACT.JS (80%)</p>
+
+                        <div class="progress mt-2 mb-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+
+                        <p class="mt-4">LARAVEL (90%)</p>
+
+                        <div class="progress mt-2 mb-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+
+
+                        <p class="mt-4">NODE.JS (75%)</p>
+
+                        <div class="progress mt-2 mb-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-top: 15vh">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card bg-dark text-light mt-4" data-aos="fade-up">
+
+                    <div class="card-body text-center">
+                        <h4 class="card-title about-title text-center">MY WORKS</h4>
+
+                        <div class="my-4">
+
+                          
+
+                            <a href="https://github.com/700mirash" type="button" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+
+                           
+
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="container" style="margin-top: 15vh">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-6">
+                <div class="card bg-dark text-light mt-4" data-aos="fade-up">
+
+                    <div class="card-body">
+                        <h4 class="card-title about-title text-center">CONTACT ME</h4>
+
+                        <div class="my-4 text-white">
+
+
+                            <form action="">
+
+                              
+                                  
+                                <div class="form-group">
+                                   
+                                    <input type="text" class="form-control" placeholder="Name" id="inputDefault">
+                                  </div>
+
+                                  <div class="form-group">
+                                   
+                                    <input type="text" class="form-control" placeholder="Email" id="inputDefault">
+                                  </div>
+
+                                  <div class="form-group">
+                                   
+                                    <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                  </div>
+
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+ 
+                            </form>
+                            
+
+                           
+
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
